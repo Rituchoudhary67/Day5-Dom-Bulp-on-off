@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+img {
+    height: 80vh;
+}
+#bulp-off {
+   display: block;
+   margin: 0 auto;
+}
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 1.8rem;
+    margin-top: 20px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: none;
+}
+button:hover {
+    box-shadow: 0 0 20px rgb(233, 220, 220);
+    cursor: pointer;
+}
